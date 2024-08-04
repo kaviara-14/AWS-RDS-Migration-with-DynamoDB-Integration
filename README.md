@@ -34,6 +34,7 @@ Migrating an on-premises MySQL database to Amazon RDS MySQL by using AWS Databas
 7. Create Lambda Function
 8. Create DynamoDB Database and Table
 
-![Screenshot 2024-08-03 155426](https://github.com/user-attachments/assets/576d6144-5545-412b-91c1-bdb75890098c)
+![Screenshot 2024-08-03 155432](https://github.com/user-attachments/assets/c8bc0a95-c277-4a81-8bf1-15dcea4543b9)
+
 
 
