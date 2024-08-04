@@ -5,15 +5,17 @@ Migrating an on-premises MySQL database to Amazon RDS MySQL by using AWS Databas
 # Project Steps
 1. Create Local Mysql Database and table for the source Database
 
-![Screenshot 2024-08-04 112731](https://github.com/user-attachments/assets/d87cdd07-b18c-427a-aadb-3fce7372b0d0)
+![Screenshot 2024-08-04 112731](https://github.com/user-attachments/assets/dc5e33f6-e7ad-48ac-9fa1-3be6cfe7e727)
 
 2. Create RDS MySQL Database for the target Database
 
-![Screenshot 2024-08-03 155124](https://github.com/user-attachments/assets/d1312be1-1c64-49ec-84d2-e3ce799dfa40)
+![Screenshot 2024-08-03 155124](https://github.com/user-attachments/assets/19d6e4df-8a93-4821-8f60-d09e5fceba91)
+
 
 3. Create Replication Instance
 
-![Screenshot 2024-08-03 155153](https://github.com/user-attachments/assets/ef94d601-686b-480f-93a3-0597015f7889)
+![Screenshot 2024-08-03 155153](https://github.com/user-attachments/assets/700a9bce-7016-43ad-b06d-d8bfd7866a82)
+
 
 4. Create Target and Source Endpoints
 
@@ -21,8 +23,9 @@ Migrating an on-premises MySQL database to Amazon RDS MySQL by using AWS Databas
 
 5. Create and Running a Migration Task
 
-![Screenshot 2024-08-03 155321](https://github.com/user-attachments/assets/f8783fc9-0dfe-4d76-91ab-1b4e5359c8a7)
-![Screenshot 2024-08-03 155330](https://github.com/user-attachments/assets/9fabf6cd-90b4-4dab-87df-7e537cf7b4c7)
+![Screenshot 2024-08-03 155321](https://github.com/user-attachments/assets/c89959a2-96ee-447d-a44d-d72e48b5db98)
+![Screenshot 2024-08-03 155257](https://github.com/user-attachments/assets/0c84d26f-6c40-4a88-964b-36b65562def4)
+
 
 6. Monitor and Check the Migration Task output by using MySQL Workbench
 
