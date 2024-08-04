@@ -5,9 +5,9 @@ Migrating an on-premises MySQL database to Amazon RDS MySQL by using AWS Databas
 # Project Steps
 1. Create an Local Mysql Database and table for the source Database
 2. Create an RDS MySQL Database for the target Database
-3. Creating a Replication Instance
-4. Creating Target and Source Endpoints
-5. Creating and Running a Migration Task
-6. Monitor and check the Migration Task Output by using MySQL Workbench
+3. Create a Replication Instance
+4. Create Target and Source Endpoints
+5. Create and Running a Migration Task
+6. Monitor and Check the Migration Task output by using MySQL Workbench
 7. Create a Lambda Function
-8. Create a DynamoDB
+8. Create a DynamoDB Database and Table
