@@ -19,7 +19,7 @@ Migrating an on-premises MySQL database to Amazon RDS MySQL by using AWS Databas
 
 7. After the migration is complete, a Lambda Function will be triggered to query and fetch all the new records from the RDS Mysql database.It will then insert these records one by one into DynamoDB.Attach a permission to the Lambda function to access DynamoDB.
    
-8. Access the AWS DynamoDB console and navigate to the table named **employeedb**. Monitor the table to verify that all records have been properly added.<img src="https://github.com/user-attachments/assets/c8bc0a95-c277-4a81-8bf1-15dcea4543b9" width="400px">
+8. Access the AWS DynamoDB console and navigate to the table named **employeedb**. Monitor the table to verify that all records have been properly added. <img src="https://github.com/user-attachments/assets/c8bc0a95-c277-4a81-8bf1-15dcea4543b9" width="400px">
 
 
 
