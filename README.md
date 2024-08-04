@@ -6,9 +6,6 @@ Migrating an on-premises MySQL database to Amazon RDS MySQL by using AWS Databas
 
 
 1. Create Local Mysql Database and table for the source Database
-<p align="center">
-<img img width="460" height="300" src="https://github.com/user-attachments/assets/dc5e33f6-e7ad-48ac-9fa1-3be6cfe7e727">
-</p>
 
 2. Create RDS MySQL Database for the target Database
 <img src="https://github.com/user-attachments/assets/19d6e4df-8a93-4821-8f60-d09e5fceba91" width="400px">
