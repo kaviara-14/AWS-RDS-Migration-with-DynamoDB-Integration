@@ -18,7 +18,7 @@ Create RDS MySQL Database called **awsemployeedb** in AWS as the target Database
 ### 3. Create Replication Instance
 Create a Replication Instance called **dbreplica** to handle data migration.And also you need to check whether your security group allows your replication instance to access your database or not.For that go to the security group remove the existing “IP address” and enter the “name of the security group” used for your Amazon RDS database instance and replication instance.
 
-<img src="https://github.com/user-attachments/assets/700a9bce-7016-43ad-b06d-d8bfd7866a82" width="400px">
+<img src="https://github.com/user-attachments/assets/700a9bce-7016-43ad-b06d-d8bfd7866a82">
 
 ### 4. Create Source and Target endpoints
 Set up Source and Target endpoints in AWS DMS called **onpremisemysql** and **awsemployeemysql** for the on-premises MySQL and RDS MySQL databases. After creating these endpoint, make sure to test the connection before migrating.
