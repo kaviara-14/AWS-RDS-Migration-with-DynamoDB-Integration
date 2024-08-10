@@ -1,6 +1,6 @@
 # DMS-Migration
 
-Migrating an on-premises MySQL database to Amazon RDS MySQL by using AWS Database Migration Services (DMS).After the migration is completed, we are invoking a Lambda function. That Lambda function checks and retrieves the newly added records from the RDS MySQL Database and inserts them into the AWS DynamoDB Database.
+Migrating an on-premises MySQL database to Amazon RDS MySQL by using AWS Database Migration Services (DMS).And Configured a CloudWatch Subscription filter to look for specific patterns related to new records . If the pattern matches, we are triggering a Lambda function. That Lambda function checks and retrieves the newly added records from the RDS MySQL Database and inserts them into the AWS DynamoDB Database.
 
 ### AWS Services : AWS RDS, AWS DMS, Lambda Function, AWS DynamoDB, CloudWatch, VPC 
 
@@ -33,7 +33,7 @@ Create and Configure a Migration task in DMS called **migrationdb** to transfer 
 ### 6. Migration Task Output
 Once the Migration is completed connect to the RDS database using MySQL Workbench to check the migrated data.Execute queries in MySQL Workbench to ensure that records in EmployeeDetails are correctly migrated.
 
-### 7. Create Lambda Function
+### 7. Configure Lambda Function
 After the migration is completed, a Lambda Function will be triggered to query and fetch all the new records from the RDS Mysql database.It will then insert these records one by one into DynamoDB.Attach a permission to the Lambda function to access DynamoDB.
    
 ### 8. Create DynamoDB
