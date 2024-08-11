@@ -4,7 +4,7 @@ Migrating an on-premises MySQL database to Amazon RDS MySQL by using AWS Databas
 
 <img src="https://github.com/user-attachments/assets/a83fd4e0-ebc2-4f03-b591-c79cad227aef">
 
-### AWS Services : AWS RDS, AWS DMS, Lambda Function, AWS DynamoDB, CloudWatch, VPC 
+### AWS Services : AWS RDS, AWS DMS, Lambda Function, AWS DynamoDB, CloudWatch 
 
 
 # Project Description : 
@@ -13,7 +13,7 @@ Migrating an on-premises MySQL database to Amazon RDS MySQL by using AWS Databas
 Set up an on-premises MySQL database using MySQL Workbench. Create a table named **EmployeeDetails** within this database, and then insert few records into the table.
 
 ### 2. Create RDS MySQL
-Create RDS MySQL Database called **awsemployeedb** in AWS as the target Database.And create a Security Group named **mysql-sg** and make sure the port “3360” is open in the inbound rule, set it if not open and attach to the database.
+Create RDS MySQL Database called **awsemployeedb** in AWS as the target Database and configure instance type, storage, and network settings.And create a Security Group named **mysql-sg** and make sure the port “3360” is open in the inbound rule, set it if not open and attach to the database.
 
 <img src="https://github.com/user-attachments/assets/19d6e4df-8a93-4821-8f60-d09e5fceba91">
 
