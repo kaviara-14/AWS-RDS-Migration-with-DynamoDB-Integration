@@ -2,6 +2,8 @@
 
 Migrating an on-premises MySQL database to Amazon RDS MySQL by using AWS Database Migration Services (DMS).And Configured a CloudWatch Subscription filter to look for specific patterns related to new records . If the pattern matches, we are triggering a Lambda function. That Lambda function checks and retrieves the newly added records from the RDS MySQL Database and inserts them into the AWS DynamoDB Database.
 
+<img src="https://github.com/user-attachments/assets/a83fd4e0-ebc2-4f03-b591-c79cad227aef">
+
 ### AWS Services : AWS RDS, AWS DMS, Lambda Function, AWS DynamoDB, CloudWatch, VPC 
 
 
